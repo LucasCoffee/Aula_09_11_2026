@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="Exercicio1/Exercicio1.csproj" />
+  <Project Path="Exercicio2/Exercicio2.csproj" />
+  <Project Path="Exercicio3/Exercicio3.csproj" Id="d964f05e-98a1-4759-a30c-290bfd8e8aa9" />
+  <Project Path="Exercicio4/Exercicio4.csproj" Id="898328a4-779f-42f1-b656-27371f2102a2" />
+  <Project Path="Exercicio5/Exercicio5.csproj" Id="29dd2e08-3ac1-4fbf-b9fb-a0c8cdb94528" />
+  <Project Path="Exercicio6/Exercicio6.csproj" Id="d80b2443-f1c2-495f-8b8f-12bbbe3e5efd" />
+  <Project Path="Exercicio7/Exercicio7.csproj" Id="c6ff0a33-10fd-42bd-b5fc-e3e6d3fde7f6" />
+  <Project Path="Exercicio8/Exercicio8.csproj" Id="0434063f-549e-444b-a155-0d495224d8a2" />
+  <Project Path="Exercicio9/Exercicio9.csproj" Id="6d768eb3-3202-40cb-8944-a4c530713b1a" />
+</Solution>
