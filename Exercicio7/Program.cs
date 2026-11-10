@@ -8,6 +8,11 @@ float altura = float.Parse(Console.ReadLine()) / 100;
 
 float imc = 0f;
 
+if(peso <= 0 || altura <= 0)
+{
+    Console.WriteLine("Não é possivel calcular valores igual ou abaixo de 0");
+}
+
 imc = peso / (altura * altura);
 
 if(imc < 18.5)

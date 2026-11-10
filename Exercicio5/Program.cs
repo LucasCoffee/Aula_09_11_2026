@@ -1,7 +1,9 @@
-﻿Console.WriteLine("Digite um ano");
+﻿
+Console.WriteLine("Digite um ano");
 int anoInformado = int.Parse(Console.ReadLine());
 
-if(anoInformado < 0)
+
+if(anoInformado < 0 )
 {
     Console.WriteLine("Você não informou um ano valido");
 }

@@ -5,6 +5,11 @@ float ladoB = float.Parse(Console.ReadLine());
 Console.WriteLine("Informe o valor terceiro lado do possivel tringulo");
 float ladoC = float.Parse(Console.ReadLine());
 
+if(ladoA <= 0 || ladoB <= 0 || ladoC <= 0)
+{
+    Console.WriteLine("Os valores não podem serem iguais ou menor que 0");
+}
+
 if (ladoA < ladoB + ladoC && ladoB < ladoA + ladoC && ladoC < ladoA + ladoB)
 {
     if (ladoA == ladoB && ladoA == ladoC)

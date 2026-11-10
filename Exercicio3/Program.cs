@@ -14,17 +14,25 @@ nota4 = float.Parse(Console.ReadLine());
 
 float media = (nota1 + nota2  + nota3 + nota4) / 4;
 
-if(media >= 7)
+if (media < 0 || media > 10)
 {
-    Console.WriteLine($"Media do aluno: {media:F2} ");
-    Console.WriteLine("Aluno aprovado");
-} else if(media >= 5.1 || media <= 6.9)
+    if (media >= 7)
+    {
+        Console.WriteLine($"Media do aluno: {media:F2} ");
+        Console.WriteLine("Aluno aprovado");
+    }
+    else if (media >= 5.1 || media <= 6.9)
+    {
+        Console.WriteLine($"Media do aluno: {media:F2} ");
+        Console.WriteLine("Aluno em recuperação");
+    }
+    else
+    {
+        Console.WriteLine($"Media do aluno: {media:F2} ");
+        Console.WriteLine("Aluno reprovado");
+    }
+}else
 {
-    Console.WriteLine($"Media do aluno: {media:F2} ");
-    Console.WriteLine("Aluno em recuperação");
-}
-else
-{
-    Console.WriteLine($"Media do aluno: {media:F2} ");
-    Console.WriteLine("Aluno reprovado");
+    Console.WriteLine("Notas fora padrão de 0 a 10");
+
 }
